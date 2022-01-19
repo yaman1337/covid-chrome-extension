@@ -1,0 +1,11 @@
+{
+    "name":"Covid Stats",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "/icon.png"
+    },
+    "permissions": ["activeTab", "tabs"],
+    "content_security_policy": "script-src 'self' https://fonts.googleapis.com/css 'unsafe-eval'; object-src 'self'"
+}

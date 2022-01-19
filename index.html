@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Covid Stats</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+       <header>
+        <h1>Covid Statistics</h1>
+        <hr>
+       </header>
+       <div class="input">
+        <select  id="search"  class="search">
+            <option value="" disabled selected>Choose your country</option>
+        </select>
+    </div>
+    <div class="results">
+        <div class="result flag">
+            <p>Flag</p>
+            <p class="data" id="flag">N/A</p>
+            <p class="loading close">Loading ...</p>
+        </div>
+        <div class=" result new">
+            <p>New</p>
+            <p class="data" id="new">N/A</p>
+            <p class="loading close">Loading ...</p>
+        </div>
+        <div class="result deaths">
+            <p>Total deaths</p>
+            <p class="data" id="deaths">N/A</p>
+            <p class="loading close">Loading ...</p>
+        </div>
+        <div class="result tests">
+            <p>Total tests</p>
+            <p class="data" id="test">N/A</p>
+            <p class="loading close">Loading ...</p>
+        </div>
+    </div>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+
+<!-- 3rd party libraries -->
+<script src="./jquery.min.js" type="text/javascript"></script>
+		<link href="./select.min.css" rel="stylesheet" />
+		<script src="./select.min.js"></script>
+		<script src="./select.js" >
+		
+		</script>
+</html>
