@@ -47,7 +47,7 @@ async function callData() {
 
       flag.innerHTML = `<img src=${item.countryInfo.flag} height="30px">`;
       deaths.textContent = item.deaths;
-      newCase.textContent = item.todayCases == 0 ? "Updating soon" : `+ ${item.todayCases}`;
+      newCase.textContent = item.todayCases == 0 ? "Data is not updated yet. Wait for a while ." : `+ ${item.todayCases}`;
       test.textContent = item.tests;
     });
 }
